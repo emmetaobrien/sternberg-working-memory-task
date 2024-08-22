@@ -1,6 +1,6 @@
 {
-  "title": "Sternberg Working Memory",
-  "description": "Sternberg working memory tasks including two memory loads and a delay suitable for fMRI & EEG or offline administration.",
+  "title": "Sternberg Working Memory Task",
+  "description": "Sternberg working memory tasks including two memory loads and a delay suitable for fMRI and EEG/behavioural administration.",
   "identifier": {
     "identifier": "https://doi.org/10.17605/OSF.IO/6CTSJ",
     "identifierSource": "DOI"
@@ -8,11 +8,10 @@
   "creators": [
     {
       "abbreviation": "",
-      "fullName": "",
+      "fullName": "Todd S Woodward",
       "firstName": "Todd",
       "middleInitial": "S",
       "lastName": "Woodward",
-      "email": "toddswoodward@gmail.com",
       "affiliations": [
         {
           "name": "University of British Columbia"
@@ -35,7 +34,33 @@
       ]
     },
     {
-      "fullName": "Jennifer C. Whitman",
+      "fullName": "Katie M Lavigne",
+      "firstName": "Katie",
+      "middleInitial": "M",
+      "lastName": "Lavigne",
+      "affiliations": [
+        {
+          "name": "University of British Columbia"
+        }
+      ],
+      "roles": [
+        {
+          "value": "Contributor"
+        }
+      ],
+      "extraProperties": [
+        {
+          "category": "ORCID",
+          "values": [
+            {
+              "value": "https://orcid.org/0000-0002-3918-691X"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fullName": "Jennifer C Whitman",
       "firstName": "Jennifer",
       "middleInitial": "C",
       "lastName": "Whitman",
@@ -54,33 +79,7 @@
           "category": "ORCID",
           "values": [
             {
-              "value": "https://orcid.org/0000-0002-6101-6802"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "fullName": "Nicole Sanford",
-      "middleInitial": "",
-      "lastName": "Sanford",
-      "firstName": "Nicole",
-      "affiliations": [
-        {
-          "name": "University of British Columbia"
-        }
-      ],
-      "roles": [
-        {
-          "value": "Contributor"
-        }
-      ],
-      "extraProperties": [
-        {
-          "category": "ORCID",
-          "values": [
-            {
-              "value": "https://orcid.org/0000-0002-4915-2537"
+              "value": "https://orcid.org/0000-0001-8083-0079"
             }
           ]
         }
@@ -90,7 +89,7 @@
   "types": [
     {
       "information": {
-        "value": "CSV"
+        "value": "Tabular data"
       }
     }
   ],
@@ -98,20 +97,23 @@
   "privacy": "open",
   "licenses": [
     {
-      "name": "GNU GPL 3.0"
+      "name": "Academic Public License"
+    },
+    {
+      "name": "CC BY-NC-SA"
     }
   ],
   "distributions": [
     {
       "formats": [
-        ""
+        "LOG"
       ],
-      "size": 2.4,
+      "size": 2.38,
       "unit": {
         "value": "MB"
       },
       "access": {
-        "landingPage": "https://osf.io/6ctsj/",
+        "landingPage": "https://doi.org/10.17605/OSF.IO/6CTSJ",
         "authorizations": [
           {
             "value": "public"
@@ -132,38 +134,45 @@
           "lastName": "Sanford",
           "affiliations": [
             {
-              "name": "University of British Columbia"
+              "name": "Department of Psychiatry, University of British Columbia, Vancouver, BC, Canada"
+            },
+            {
+              "name": "BC Mental Health & Substance Use Services Research Institute"
             }
           ]
         },
         {
-          "fullName": "Jennifer C. Whitman",
+          "fullName": "Jennifer C Whitman",
           "firstName": "Jennifer",
           "middleInitial": "C",
           "lastName": "Whitman",
           "affiliations": [
             {
-              "name": "Northwestern University"
+              "name": "Department of Psychology, Northwestern University, IL, USA"
             }
           ]
         },
         {
-          "fullName": "Todd S. Woodward",
+          "fullName": "Todd S Woodward",
           "firstName": "Todd",
           "middleInitial": "S",
           "lastName": "Woodward",
           "affiliations": [
             {
-              "name": "University of British Columbia"
+              "name": "Department of Psychiatry, University of British Columbia, Vancouver, BC, Canada"
+            },
+            {
+              "name": "BC Mental Health & Substance Use Services Research Institute"
             }
           ]
         }
       ],
       "dates": [
         {
-          "date": "2020-01-14 00:00:00",
+          "date": "2020-02-12 00:00:00",
+          "description": "",
           "type": {
-            "value": "published"
+            "value": "version of record"
           }
         }
       ],
@@ -187,19 +196,7 @@
       "value": "verbal working memory"
     },
     {
-      "value": "working memory"
-    },
-    {
-      "value": "sternberg"
-    },
-    {
       "value": "load"
-    },
-    {
-      "value": "fmri"
-    },
-    {
-      "value": "eeg"
     },
     {
       "value": "delay"
@@ -218,7 +215,7 @@
       "category": "files",
       "values": [
         {
-          "value": "77"
+          "value": "38"
         }
       ]
     },
@@ -295,6 +292,20 @@
       ]
     },
     {
+      "category": "experimentValidationPopulations",
+      "values": [
+        {
+          "value": "Adult"
+        },
+        {
+          "value": "Healthy"
+        },
+        {
+          "value": "Disease"
+        }
+      ]
+    },
+    {
       "category": "experimentAccessibility",
       "values": [
         {
@@ -313,6 +324,9 @@
         },
         {
           "value": "EEG"
+        },
+        {
+          "value": "Behavioural"
         }
       ]
     },
@@ -321,6 +335,17 @@
       "values": [
         {
           "value": "Computer"
+        },
+        {
+          "value": "Laptop"
+        }
+      ]
+    },
+    {
+      "category": "experimentRequiredSoftware",
+      "values": [
+        {
+          "value": "NBS Presentation version 17"
         }
       ]
     },
